@@ -13,10 +13,6 @@ value_name_catalog_text = None
 
 class MainPage(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     # Locators
     category_puer = '//*[@id="app"]/main/div/section/section/div/div[1]/aside/ul/li[7]/div'
     cookie_agree_button = '//*[@id="app"]/main/div[2]/div/div/div/div[2]/button'
