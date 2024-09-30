@@ -13,10 +13,6 @@ class LoginPage(Base):
 
     url = 'https://moychay.ru'
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     # Locators
     user_button_container = '//*[@id="app"]/main/header/div/div/div[1]/nav/div[1]/div/a'
     user_login = '//*[@id="form"]/input[1]'
