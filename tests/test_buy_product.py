@@ -10,6 +10,7 @@ from pages.main_page import MainPage
 
 @allure.description("Test buy product")
 def test_buy_product():
+     """Тест по покупке товара включает: в себя авторизацию, выбор товара, заполнение данных получателя."""
     options = webdriver.ChromeOptions()
     options.add_experimental_option('detach', True)
     options.page_load_strategy = 'eager'
