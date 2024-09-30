@@ -14,10 +14,6 @@ value_name_product_in_cart = None
 
 class CartPage(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     # Locators
     checkout_button = '//*[@id="app"]/main/section/div/div/section/aside/div[2]/button[2]'
     value_price_product = '//*[@id="app"]/main/section/div/div/section/aside/div[1]/div[2]/div[2]'
