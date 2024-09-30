@@ -18,10 +18,6 @@ fake = Faker("en_US")
 
 class ClientInfoPage(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     # Locators
     delivery_type = '//*[@id="app"]/main/div/section/form/section/main/div[1]/div[2]/label[1]/div'
     param_of_delivery = '//*[@id="app"]/main/div/section/form/section/main/div[2]/div[2]/div[1]/label/div'
